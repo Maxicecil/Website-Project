@@ -1,0 +1,260 @@
+/* general */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    flex: 1;
+    
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(241, 242, 246);
+    max-height: 100%;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    width: 960px;
+    flex: 1;
+}
+
+.header {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.header, .container {
+    color: white;
+    background-color: rgb(59, 74, 109);
+    width: 960px;
+    max-width: 100%;
+    padding: 6px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container a {
+  color: azure;
+    
+}
+
+.nav-icon-list {
+    font-size: 15px;
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* main body */
+
+.monster-image, .monster-spread {
+    background-color: rgb(59, 74, 109);
+    padding: 8px;
+    margin: 0;
+    width: 960px;
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.monster-image img {
+    height: 25rem;
+    width: 35rem;
+    align-self: center;
+}
+
+
+.monster-spread {
+    height: 300px;
+    padding: 5px;
+    max-height: 100%;
+    height: 100px;
+    width: 960px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center ;
+}
+
+.monster-spread p {
+    padding: 8px;
+    color: white;
+    font-size: 24px;
+}
+
+.monster-spread button {
+    background-color: rgb(166, 166, 222);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* monster boxs */
+
+.container-two {
+    height: 400px;
+    max-height: 100%;
+    max-width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    width: 960px;
+
+}
+
+.container-two h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 960px;
+    flex: 1;
+    max-width: 100%;
+    padding: 24px;
+    
+}
+
+.monster-box-list {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+     
+}
+
+.monster-box-list :nth-child(1) {
+    
+    
+       
+
+}
+
+.monster-box-list :nth-child(2) {
+    
+    
+    
+}
+
+.monster-box-list :nth-child(3) {
+  
+   
+   
+}
+
+.monster-box-list :nth-child(4) {
+    
+    
+}
+
+a { 
+    text-decoration: none;     
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* quote */
+.quote {
+    background-color: rgb(182, 186, 192);
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 960px;
+    height: 300px;
+    flex: 1;
+}
+
+.monster-mayhem {
+    font-style: italic;
+    font-size: 20px;
+    padding: 5px;
+    height: 100px;
+    max-height: 100%;
+    width: 960px;
+    max-width: 100%;
+}
+
+.quote p {
+    font-size: 19px;
+    padding: 75px;
+    width: 100%; 
+    height: 100%; 
+}
+
+/* footer */
+
+.footer {
+    background-color: rgb(31, 100, 204);
+    padding: 50px;
+    margin: 50px;
+    width: 850px;
+    max-width: 100%;
+    height: 100px;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+ } 
+ 
+ .container-foot {
+    
+ }
+
+.footer p {
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    color: white;
+    align-items: center;
+    font-size:  24px; 
+ }
+
+.footer button {
+    background-color: rgb(166, 166, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 5px;
+    margin: 1rem;
+    width: 70px;
+    border-radius: 8px;
+ }
+
+.button {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.ender {
+    color: white;
+     background-color: rgb(59, 74, 109);;
+     height: 50px;
+     width: 960px;
+     max-width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     
+}
+    
+    
